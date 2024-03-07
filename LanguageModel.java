@@ -160,7 +160,7 @@ public class LanguageModel {
                 c = getRandomChar(probs);
                 generated += c;
                 generated = generated.substring(counter, windowLength+counter);
-
+                counter++;
             }
 
         }
